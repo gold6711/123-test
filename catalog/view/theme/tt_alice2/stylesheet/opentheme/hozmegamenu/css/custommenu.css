@@ -1,0 +1,383 @@
+.pt_custommenu {
+    font-size: 14px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 90;
+    display: inline-block;
+	float:left;
+}
+.pt_custommenu div.pt_menu {
+    float: left;
+}
+.parentMenu span.blog {
+    display: none;
+}
+.pt_custommenu div.pt_menu  .parentMenu {
+	position:relative;
+}
+.pt_custommenu div.pt_menu .parentMenu a, .pt_custommenu div.pt_menu .parentMenu span.block-title {
+    padding: 17px 15px;
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+}
+.nav-container.fix-nav .pt_custommenu div.pt_menu .parentMenu a, 
+.nav-container.fix-nav.pt_custommenu div.pt_menu .parentMenu span.block-title{
+    color: #fff;
+}
+.pt_custommenu div.pt_menu .parentMenu a:hover, 
+.pt_custommenu div.pt_menu .parentMenu span.block-title:hover, 
+.pt_custommenu #pt_menu_link ul li a.act, 
+#pt_menu_home.pt_menu.act .parentMenu a,
+.pt_custommenu #pt_menu_link ul li a:hover, 
+.pt_custommenu div.pt_menu.act .parentMenu a, 
+.pt_custommenu div.pt_menu.active .parentMenu a,
+.nav-container.fix-nav .pt_custommenu div.pt_menu .parentMenu a:hover, 
+.nav-container.fix-nav.pt_custommenu div.pt_menu .parentMenu span.block-title:hover {
+    color: #E8B11D;
+}
+div.pt_menu .parentMenu a, .parentMenu .block-title {
+    color: #666;
+    font-size: 18px;
+}
+
+.pt_custommenu div.popup {
+    position:absolute;
+    z-index:3000;
+    background-color:#fff;
+    text-align:left;
+    padding:15px;
+    margin: 0;
+}
+
+.pt_custommenu div.popup a {
+    text-decoration: none;
+    display:block;
+    line-height: 32px;
+}
+
+.pt_custommenu .itemMenu h4.level0,.pt_custommenu .itemMenu a.level0 {
+    color: #444444;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.pt_custommenu div.pt_menu.act .itemMenu .itemMenuName{ color: #666666; background:none; }
+
+.pt_custommenu div.pt_menu.act .itemSubMenu .itemMenuName{ color: #7a7a7a; background:url("../images/li_submenu.png") no-repeat scroll left center;}
+
+
+.pt_custommenu .itemSubMenu h4.level2,
+.pt_custommenu .itemSubMenu a.level2,
+.pt_custommenu .itemSubMenu h4.level3,
+.pt_custommenu .itemSubMenu a.level3,
+.pt_custommenu .itemMenu .level1 a.level0{
+    color: #555555;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 15px;
+    text-transform: none;
+    line-height:30px;
+}
+.pt_custommenu .itemSubMenu h4.level2:hover,
+.pt_custommenu .itemSubMenu a.level2:hover,
+.pt_custommenu .itemSubMenu h4.level3:hover,
+.pt_custommenu .itemSubMenu a.level3:hover,
+.pt_custommenu .itemMenu a.level0:hover,
+.pt_custommenu .itemMenu .level1 a.level0:hover{
+    color: #E8B11D;
+}
+.pt_custommenu div.popup a.actParent {
+}
+.pt_custommenu div.popup a.act {
+}
+.pt_custommenu div.column {
+    float: left;
+    margin-right: 5px;
+    padding-right: 5px;
+    width: 200px;
+}
+.pt_custommenu div.blockright {
+	width:500px;
+}
+.pt_custommenu div.popup .blockright img {
+    max-width: 100%;
+}
+.pt_custommenu div.column.last {
+    border-right: 0 none;
+}
+
+.pt_custommenu .block2{
+    margin-top: 10px;
+    float: left;
+}
+#block2_pt_item_menu_custom_menu {
+    width: 700px;
+	padding:0;
+}
+.static-menu-img {
+    margin: 0 20px 0 0;
+	width:40%;
+	float:left;
+}
+.pt_custommenu div.popup .block1{
+    overflow: hidden;
+    float: left;
+}
+
+#block2_pt_item_menu_custom_menu .content-custom {
+	font-size:14px;
+	color:#444444;
+	font-weight:normal;
+	line-height:20px;
+	margin:10px 0 0;
+	float:left;
+	width:50%;
+}
+.pt_custommenu div.popup .block1 .column{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.pt_custommenu div.popup .blockright img{
+    max-width: 100%;
+} 
+
+.pt_custommenu div.pt_menu .parentMenu p{
+    margin: 0;
+    padding: 0;
+}
+.pt_custommenu #pt_menu_link{
+    padding: 0;
+}
+.pt_custommenu #pt_menu_link .parentMenu ul li{
+    float: left;
+    list-style: none;
+}
+.pt_custommenu #pt_menu_link .parentMenu ul li a{
+    float: left;
+    padding: 0 10px;
+    display: block;
+}
+.pt_custommenu .clearBoth {
+    clear:both;
+}
+
+/*mobile menu*/
+
+/*------Accordion ---------*/
+/********** < Navigation */
+.nav-collapse {
+    text-align: left;
+}
+.navbar .nav > li {
+    padding: 10px 30px 20px 0;
+}
+#ma-mobilemenu {
+    float: left;
+    height: auto;
+    margin:0;
+    width: 100%;
+}
+
+.nav-collapse, .nav-collapse.collapse {
+}
+.navbar-inner {
+    border: 0;
+    border-radius: 0;
+    padding: 2px 0;
+}
+.navbar .btn-navbar {
+    border: none;
+	background: none !important;
+	padding: 0 0 0px 0;
+	height: auto;
+	margin: 22px 0 0;
+	box-shadow: none !important;
+	background: none !important;
+}
+.navbar .btn-navbar .icon-bar {
+    background: #fff;
+}
+.navbar .btn-navbar:hover .icon-bar{
+	background-color: #f9ba48 !important;
+}
+.navbar .btn-navbar:hover{
+	 background: none !important;
+}
+.mobilemenu>li.last a {
+    border-bottom: 0;
+}
+.navbar .brand {
+    color: #fff;
+    text-transform: uppercase;
+	padding:18px 0px;
+}
+#ma-mobilemenu {
+    top: 100%;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.1) !important;
+}
+.collapse.in {
+
+}
+.mobilemenu ul {
+	padding: 0;
+	margin: 0;
+	display: block;
+	width: 100%;
+}
+.mobilemenu li {
+	background: #faf8f8;
+	cursor: pointer;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	width: 100%;
+	position: relative;
+        border-radius: 0 !important;
+}
+.mobilemenu li.level0.last {
+    margin-bottom: 20px;
+}
+.mobilemenu li.active>a {
+	/*background: url('../images/close.gif') no-repeat center right;*/
+}
+.mobilemenu li div {
+	padding: 20px;
+	background: #aef;
+	display: block;
+	clear: both;
+	float: left;
+	width: 360px;
+}
+.mobilemenu li:last-child a {
+	border: none;
+}
+.mobilemenu a {
+    border-bottom: 1px solid #ebebeb;
+    color: #666;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.mobilemenu ul ul a, .mobilemenu ul li.active ul a {
+	color: #666 !important;
+}
+
+
+.mobilemenu ul ul ul a, .mobilemenu ul ul li.active ul a {
+	color: #666 !important;
+}
+
+.mobilemenu ul ul ul ul a, .mobilemenu ul ul ul li.active ul a {
+	color: #666 !important;
+}
+
+.mobilemenu li.active>ul {
+
+}
+.mobilemenu ul ul a {
+	padding-left: 15px;
+}
+.mobilemenu ul ul ul a {
+	padding-left: 30px;
+}
+.mobilemenu ul ul ul ul a {
+	padding-left: 45px;
+}
+.mobilemenu ul ul ul ul ul a {
+	padding-left: 60px;
+}
+/*----------- button mobilemenu -------------*/
+.mobilemenu span.ttclose,.mobilemenu span.ttopen {
+	position: absolute;
+    top: 12px;
+    right: -4px;
+}
+.mobilemenu span.ttclose a { 
+	background: url("../images/menu_down.png") no-repeat scroll 50% 50%;
+	 border: 0 none;
+    color: #333333;
+    display: block;
+    height: 15px;
+    padding: 0;
+    width: 15px;
+}
+.mobilemenu span.ttopen a { 
+	background: url("../images/menu_up.png") no-repeat scroll 50% 50%;
+	 border: 0 none;
+    color: #333333;
+    display: block;
+    height: 15px;
+    padding: 0;
+    width: 15px;
+}
+.mobilemenu span.no-close a,.mobilemenu ul li ul span.ttclose a { background:none; }
+.mobilemenu span.up a { 
+	background: url("../images/menu_up.png") no-repeat scroll 50% 50%;
+}
+/*.mobilemenu span.head a:hover*/
+.mobilemenu li.active>span.ttclose a {
+	background: url(../images/menu_up.png) no-repeat 50% 50%;
+}
+.mobilemenu li.selected span.ttclose a {
+	background: url(../images/menu_up.png) no-repeat 50% 50%;
+}
+.menu-mobile {
+    display: inline-block;
+    width: 100%;
+	height: 53px;
+}
+/* stylish */
+#pt_menu_pt_item_menu_blog {
+    cursor: pointer;
+}
+.pt_custommenu #pt_menu_pt_item_menu_blog div.popup{display: none !important;}
+.parentMenu span.best, .parentMenu span.new{
+    position: absolute;
+    top: -10px;
+    right: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0px;
+    background: #ff8a44;
+    height: 20px;
+    line-height: 20px;
+    border: 0px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+}
+.parentMenu span.new{    background: #447cff;}
+.parentMenu span.best:before, .parentMenu span.new:before{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    margin-left: 0px;
+    border: 4px solid transparent;
+    border-top-color: #ff8a44;
+}
+.parentMenu span.new:before{border-top-color: #447cff;}
+.parentMenu:hover span.new,.parentMenu:hover span.best{
+    top: -5px;
+    transition: top 300ms ease-in-out;
+}
