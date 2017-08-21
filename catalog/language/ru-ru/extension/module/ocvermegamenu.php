@@ -1,6 +1,6 @@
 <?php
 // Heading 
-$_['heading_title'] = 'All categories';
+$_['heading_title'] = 'Все категории ';
 
 // Text
 $_['text_more_vertical_menu'] = '<i class="fa fa-plus"></i>More Categories';
